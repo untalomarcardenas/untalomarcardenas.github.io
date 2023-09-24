@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E7E7;;
+}
+
+.error{
+    text-shadow: red -3px 0,
+        cyan 3px 0;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 6rem;
+}
+
+.text{
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 2rem;
+}
